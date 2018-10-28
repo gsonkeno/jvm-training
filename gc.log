@@ -1,0 +1,92 @@
+Java HotSpot(TM) 64-Bit Server VM (25.111-b14) for windows-amd64 JRE (1.8.0_111-b14), built on Sep 22 2016 19:24:05 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 16660128k(10425944k free), swap 18757280k(11003164k free)
+CommandLine flags: -XX:InitialHeapSize=104857600 -XX:MaxHeapSize=104857600 -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCDetails -XX:+PrintGCTimeStamps -XX:+PrintHeapAtGC -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseSerialGC 
+{Heap before GC invocations=0 (full 0):
+ def new generation   total 30720K, used 27328K [0x00000000f9c00000, 0x00000000fbd50000, 0x00000000fbd50000)
+  eden space 27328K, 100% used [0x00000000f9c00000, 0x00000000fb6b0000, 0x00000000fb6b0000)
+  from space 3392K,   0% used [0x00000000fb6b0000, 0x00000000fb6b0000, 0x00000000fba00000)
+  to   space 3392K,   0% used [0x00000000fba00000, 0x00000000fba00000, 0x00000000fbd50000)
+ tenured generation   total 68288K, used 0K [0x00000000fbd50000, 0x0000000100000000, 0x0000000100000000)
+   the space 68288K,   0% used [0x00000000fbd50000, 0x00000000fbd50000, 0x00000000fbd50200, 0x0000000100000000)
+ Metaspace       used 8954K, capacity 9206K, committed 9472K, reserved 1056768K
+  class space    used 1080K, capacity 1164K, committed 1280K, reserved 1048576K
+2018-10-28T23:38:36.679+0800: 10.877: [GC (Allocation Failure) 2018-10-28T23:38:36.679+0800: 10.877: [DefNew: 27328K->3392K(30720K), 0.0136656 secs] 27328K->13789K(99008K), 0.0138758 secs] [Times: user=0.01 sys=0.02, real=0.01 secs] 
+Heap after GC invocations=1 (full 0):
+ def new generation   total 30720K, used 3392K [0x00000000f9c00000, 0x00000000fbd50000, 0x00000000fbd50000)
+  eden space 27328K,   0% used [0x00000000f9c00000, 0x00000000f9c00000, 0x00000000fb6b0000)
+  from space 3392K, 100% used [0x00000000fba00000, 0x00000000fbd50000, 0x00000000fbd50000)
+  to   space 3392K,   0% used [0x00000000fb6b0000, 0x00000000fb6b0000, 0x00000000fba00000)
+ tenured generation   total 68288K, used 10397K [0x00000000fbd50000, 0x0000000100000000, 0x0000000100000000)
+   the space 68288K,  15% used [0x00000000fbd50000, 0x00000000fc7777f8, 0x00000000fc777800, 0x0000000100000000)
+ Metaspace       used 8954K, capacity 9206K, committed 9472K, reserved 1056768K
+  class space    used 1080K, capacity 1164K, committed 1280K, reserved 1048576K
+}
+{Heap before GC invocations=1 (full 0):
+ def new generation   total 30720K, used 30682K [0x00000000f9c00000, 0x00000000fbd50000, 0x00000000fbd50000)
+  eden space 27328K,  99% used [0x00000000f9c00000, 0x00000000fb6a69a8, 0x00000000fb6b0000)
+  from space 3392K, 100% used [0x00000000fba00000, 0x00000000fbd50000, 0x00000000fbd50000)
+  to   space 3392K,   0% used [0x00000000fb6b0000, 0x00000000fb6b0000, 0x00000000fba00000)
+ tenured generation   total 68288K, used 10397K [0x00000000fbd50000, 0x0000000100000000, 0x0000000100000000)
+   the space 68288K,  15% used [0x00000000fbd50000, 0x00000000fc7777f8, 0x00000000fc777800, 0x0000000100000000)
+ Metaspace       used 9367K, capacity 9624K, committed 9728K, reserved 1058816K
+  class space    used 1109K, capacity 1179K, committed 1280K, reserved 1048576K
+2018-10-28T23:38:58.366+0800: 32.563: [GC (Allocation Failure) 2018-10-28T23:38:58.366+0800: 32.563: [DefNew: 30682K->3351K(30720K), 0.0500567 secs] 41080K->36985K(99008K), 0.0501669 secs] [Times: user=0.05 sys=0.00, real=0.05 secs] 
+Heap after GC invocations=2 (full 0):
+ def new generation   total 30720K, used 3351K [0x00000000f9c00000, 0x00000000fbd50000, 0x00000000fbd50000)
+  eden space 27328K,   0% used [0x00000000f9c00000, 0x00000000f9c00000, 0x00000000fb6b0000)
+  from space 3392K,  98% used [0x00000000fb6b0000, 0x00000000fb9f5e38, 0x00000000fba00000)
+  to   space 3392K,   0% used [0x00000000fba00000, 0x00000000fba00000, 0x00000000fbd50000)
+ tenured generation   total 68288K, used 33633K [0x00000000fbd50000, 0x0000000100000000, 0x0000000100000000)
+   the space 68288K,  49% used [0x00000000fbd50000, 0x00000000fde28608, 0x00000000fde28800, 0x0000000100000000)
+ Metaspace       used 9367K, capacity 9624K, committed 9728K, reserved 1058816K
+  class space    used 1109K, capacity 1179K, committed 1280K, reserved 1048576K
+}
+{Heap before GC invocations=2 (full 0):
+ def new generation   total 30720K, used 30666K [0x00000000f9c00000, 0x00000000fbd50000, 0x00000000fbd50000)
+  eden space 27328K,  99% used [0x00000000f9c00000, 0x00000000fb6acbd0, 0x00000000fb6b0000)
+  from space 3392K,  98% used [0x00000000fb6b0000, 0x00000000fb9f5e38, 0x00000000fba00000)
+  to   space 3392K,   0% used [0x00000000fba00000, 0x00000000fba00000, 0x00000000fbd50000)
+ tenured generation   total 68288K, used 33633K [0x00000000fbd50000, 0x0000000100000000, 0x0000000100000000)
+   the space 68288K,  49% used [0x00000000fbd50000, 0x00000000fde28608, 0x00000000fde28800, 0x0000000100000000)
+ Metaspace       used 9488K, capacity 9842K, committed 9984K, reserved 1058816K
+  class space    used 1117K, capacity 1194K, committed 1280K, reserved 1048576K
+2018-10-28T23:39:22.256+0800: 56.454: [GC (Allocation Failure) 2018-10-28T23:39:22.256+0800: 56.454: [DefNew: 30666K->3368K(30720K), 0.0451730 secs] 64300K->62243K(99008K), 0.0454625 secs] [Times: user=0.00 sys=0.03, real=0.03 secs] 
+Heap after GC invocations=3 (full 0):
+ def new generation   total 30720K, used 3368K [0x00000000f9c00000, 0x00000000fbd50000, 0x00000000fbd50000)
+  eden space 27328K,   0% used [0x00000000f9c00000, 0x00000000f9c00000, 0x00000000fb6b0000)
+  from space 3392K,  99% used [0x00000000fba00000, 0x00000000fbd4a310, 0x00000000fbd50000)
+  to   space 3392K,   0% used [0x00000000fb6b0000, 0x00000000fb6b0000, 0x00000000fba00000)
+ tenured generation   total 68288K, used 58875K [0x00000000fbd50000, 0x0000000100000000, 0x0000000100000000)
+   the space 68288K,  86% used [0x00000000fbd50000, 0x00000000ff6cec38, 0x00000000ff6cee00, 0x0000000100000000)
+ Metaspace       used 9488K, capacity 9842K, committed 9984K, reserved 1058816K
+  class space    used 1117K, capacity 1194K, committed 1280K, reserved 1048576K
+}
+{Heap before GC invocations=3 (full 0):
+ def new generation   total 30720K, used 8554K [0x00000000f9c00000, 0x00000000fbd50000, 0x00000000fbd50000)
+  eden space 27328K,  18% used [0x00000000f9c00000, 0x00000000fa110640, 0x00000000fb6b0000)
+  from space 3392K,  99% used [0x00000000fba00000, 0x00000000fbd4a310, 0x00000000fbd50000)
+  to   space 3392K,   0% used [0x00000000fb6b0000, 0x00000000fb6b0000, 0x00000000fba00000)
+ tenured generation   total 68288K, used 58875K [0x00000000fbd50000, 0x0000000100000000, 0x0000000100000000)
+   the space 68288K,  86% used [0x00000000fbd50000, 0x00000000ff6cec38, 0x00000000ff6cee00, 0x0000000100000000)
+ Metaspace       used 9507K, capacity 9866K, committed 9984K, reserved 1058816K
+  class space    used 1119K, capacity 1198K, committed 1280K, reserved 1048576K
+2018-10-28T23:39:26.231+0800: 60.429: [Full GC (System.gc()) 2018-10-28T23:39:26.231+0800: 60.429: [Tenured: 58875K->66482K(68288K), 0.0323520 secs] 67429K->66482K(99008K), [Metaspace: 9507K->9507K(1058816K)], 0.0324709 secs] [Times: user=0.03 sys=0.00, real=0.03 secs] 
+Heap after GC invocations=4 (full 1):
+ def new generation   total 30720K, used 0K [0x00000000f9c00000, 0x00000000fbd50000, 0x00000000fbd50000)
+  eden space 27328K,   0% used [0x00000000f9c00000, 0x00000000f9c00000, 0x00000000fb6b0000)
+  from space 3392K,   0% used [0x00000000fba00000, 0x00000000fba00000, 0x00000000fbd50000)
+  to   space 3392K,   0% used [0x00000000fb6b0000, 0x00000000fb6b0000, 0x00000000fba00000)
+ tenured generation   total 68288K, used 66482K [0x00000000fbd50000, 0x0000000100000000, 0x0000000100000000)
+   the space 68288K,  97% used [0x00000000fbd50000, 0x00000000ffe3cb18, 0x00000000ffe3cc00, 0x0000000100000000)
+ Metaspace       used 9507K, capacity 9866K, committed 9984K, reserved 1058816K
+  class space    used 1119K, capacity 1198K, committed 1280K, reserved 1048576K
+}
+Heap
+ def new generation   total 30720K, used 2243K [0x00000000f9c00000, 0x00000000fbd50000, 0x00000000fbd50000)
+  eden space 27328K,   8% used [0x00000000f9c00000, 0x00000000f9e30c20, 0x00000000fb6b0000)
+  from space 3392K,   0% used [0x00000000fba00000, 0x00000000fba00000, 0x00000000fbd50000)
+  to   space 3392K,   0% used [0x00000000fb6b0000, 0x00000000fb6b0000, 0x00000000fba00000)
+ tenured generation   total 68288K, used 66482K [0x00000000fbd50000, 0x0000000100000000, 0x0000000100000000)
+   the space 68288K,  97% used [0x00000000fbd50000, 0x00000000ffe3cb18, 0x00000000ffe3cc00, 0x0000000100000000)
+ Metaspace       used 9607K, capacity 9980K, committed 10240K, reserved 1058816K
+  class space    used 1132K, capacity 1217K, committed 1280K, reserved 1048576K
