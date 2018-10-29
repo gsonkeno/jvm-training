@@ -10,7 +10,7 @@ import java.util.List;
  * 默认情况下 新生代:老年代=1:2
  * 这段代码的意思是以64KB/1000ms的速度往java堆中填充数据，一共填充1000次
  */
-public class Jconsole {
+public class Jstat {
     /**
      * 内存占位符对象，一个OOMObject大约占64 KB
      */
