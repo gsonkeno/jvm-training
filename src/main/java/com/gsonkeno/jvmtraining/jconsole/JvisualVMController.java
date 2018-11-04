@@ -14,7 +14,8 @@ import java.util.Map;
 public class JvisualVMController {
 
     @RequestMapping(value = "/jVisualVM")
-    public Map jvisualVm(){
+    public Map jvisualVm() throws InterruptedException {
+        Thread.sleep(Math.round(Math.random()*1000));
         Map map = new HashMap();
         map.put("name","gs");
         map.put("age","25");

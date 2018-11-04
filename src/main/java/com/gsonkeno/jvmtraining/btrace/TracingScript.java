@@ -23,7 +23,7 @@ public class TracingScript {
         println(strcat("方法结果:", str(result)));
     }
 
-//    最终在jvisualvm工具面板中打印出来的内容，类似如下:
+//    最终在jvisualvm工具面板BTrace一栏中打印出来的内容，类似如下:
 //    调用堆栈:
 //            com.gsonkeno.jvmtraining.btrace.BTraceTest.add(BTraceTest.java:9)
 //            com.gsonkeno.jvmtraining.btrace.BTraceTest.main(Unknown Source)
